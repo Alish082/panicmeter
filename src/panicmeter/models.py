@@ -33,3 +33,4 @@ class Report:
     signals: Signals
     curve: List[float] = field(default_factory=list)
     integrity_ok: bool = True
+    authenticity: object = None
